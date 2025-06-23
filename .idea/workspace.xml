@@ -4,33 +4,633 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63cd24c4-7af8-4098-ad39-30a6628acfb8" name="Changes" comment="" />
+    <list default="true" id="63cd24c4-7af8-4098-ad39-30a6628acfb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/AtUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/ClassNameFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/ProcessFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/SimulatingNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/StackGeneric_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/StackLStringTst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/TestObjectCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/TestObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/TestProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/annotation_/UseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/caffeine/TestReferenceBasedStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/AssociativeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/CollectionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/CountingIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/FailFast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/LinkedHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/SimpleDeques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/SortedSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/UnsupporedOperaionsInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/collections_/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/AtomicIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/AtomicSerialNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Baked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Batter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CachedThreadPool3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CapUncaughtException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CatchCompletableExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CompletableExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CompletableUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CompleteLimitStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/CountingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/DualCompletableOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/ExceptionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/FrostedCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/HasID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/LambdasAndMethodReferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/LimitStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Nap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/NapTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/ParallelPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/QuittableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/QuittingTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SafeReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SerialNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SerialNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/StaticIDField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/StreamExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Summing2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Summing3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SyncOnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SynchronizedComparsion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/SynchronizedConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/ThrowsChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/WorkStealingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/concurrent/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapt_/AdaptationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/Macro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/StrategyPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade_/FacadeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/BadShapeCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/FlowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/MyPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/MySubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy_/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/SingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/TestSingletonObjClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/TripleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/StateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/WawaBarkBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/TemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Aluminum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Bins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Cardboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/ClassToListOfTrashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/DoubleDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/DynaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Fillable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/FillableList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Glass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/ParseTrash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Plastic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/RecycleB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/RecycleC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Trash.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Trash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypeMapTrash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypedBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor_/BeeAndFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/functional_/Closure01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/BasicFileOutput.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/BufferedInputFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/FileLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/GetChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/IntBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/LockingMappedFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/MemoryInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/OSExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/OSExecuteExcption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/Redirecting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/StoringAndRecoveringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/io_/onjava-io.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/proxy/dynamicProxy/cglib/DemoMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/proxy/dynamicProxy/jdk/ExerciseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/proxy/dynamicProxy/jdk/SlowRunServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/reflection/ModifyingPrivateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/str/BlackSlashes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/str/DataPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/str/ScannerDelimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/stream_/ExceptionSilencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/stream_/FunctionMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/stream_/LostMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/stream_/SelectElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jools-hzx&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jools-hzx/OnJava-Exp.git&quot;,
+    &quot;accountId&quot;: &quot;00b55266-6adb-4d2b-ad8b-8d37f50dc44f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.13/lib/src.zip!/java.base/java/lang/reflect/ProxyGenerator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/annotation_/AtUnit.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/annotation_/ClassNameFinder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/annotation_/ProcessFiles.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/array/StringSorting.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/assertion/GuavaPreconditions.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/caffeine/CacheStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/caffeine/EvictionStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/caffeine/TimeEvictionStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/collections_/HTMLColors.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/collections_/SortedMapDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/Baked.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/CompletableOperations.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/LimitStateMachine.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/SerialNumberChecker.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/WorkStealingPool.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/chain_/ChainOfResponsibility.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/Mocha.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/FullBorder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/MultiStringDisplay.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/SideBorder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/StringDisplay.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/UpDownBorder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/IncrementalNumberGenerator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/InterfaceDefaultDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/NumberGenerator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/MyPublisher.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/Triple.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/StateDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/statemachine/StateMachineDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/LogStrategyTemplate.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Hand.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Player.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/ProbStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/WinningStrategy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/PayContext.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Bins.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/DoubleDispatch.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Paper.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/ParseTrash.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/RecycleC.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashVisitor.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypeMapTrash.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Visitor.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/AlarmPoints.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/ArrowInSwitch.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/CaseNull.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/ConstantSpecificMethod.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/Course.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/EnumClass.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/EnumImplementation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/Food.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/Input.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/Outcome.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/OverrideConstantMethod.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/PetPatternMatch.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/PostOffice.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoShamBo1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoShamBo2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoShamBo4.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoShamBo5.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoShamBo6.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/RoshamBo3.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/SecurityCategory.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/TrafficLight.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/enum_/VendingMachine.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exam/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exception/CleanupIdiom.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exception/CloseExceptions.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exception/Human.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exception/StormyInning.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/exception/TurnOffChecking.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/file/Find.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/file/PathWatcher.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/functional_/BiConsumerPermutations.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/functional_/FunctionVariants.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/functional_/FunctionWithWrapped.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/functional_/ProduceFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/functional_/TransformFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/BasicBound.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/BasicSupplier.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CaptureConversion.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CheckedList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/ClassTypeCapture.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Coffee.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CoffeeSupplier.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CollectionMethodDifferences.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CovariantArrays.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/CreatorGeneric.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/DynamicProxyMixin.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/ErasureAndInheritance.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/FactoryConstraint.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Fibonacci.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/GenericArray2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/GenericMethods.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/GenericReading.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/GenericsAndReturnTypes.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Holder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/IterableFibonacci.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/LatentReflection.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/LostInformation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Mixins.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/ObjectHolder.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/PlainGenericInheritance.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/PrimitiveGenericTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/RandomList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Store.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/ThrowGenericException.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/Tuple.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/TupleGenericMethodsTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/UseList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/WaterColors.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/generic_/WatercolorSets.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/CountDownLatchDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/aqs/AqsSynchronierDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/aqs/SemaphoreDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/aqs/semaphore/FixSizeSemaphoreDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/countdownlatch/CountDownLatchContext.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/countdownlatch/ThreadContext.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/jucBlockingQueue/ArrayBlockingQueueDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/jucBlockingQueue/BlockingQueueDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/jucBlockingQueue/LinkedBlockingQueueExp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/jucMap/ConcurrentHashMapDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/threadpool/TestCallerRunsPolicy.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/io_/IntBufferDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/io_/LockingMappedFiles.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/io_/UsingRandomAccessFile.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jdk/jdk8/DateTimeApis.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jdk/jdk8/InterfacesDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jdk/jdk8/functionalInfs/FunctionalInterfacesDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jdk/jdk8/functionalInfs/LambdaExpressionDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jdk/jdk8/functionalInfs/OptionalDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jmh/demo/StringBuilderBenchmark.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jmh/quickstart/JmhMain.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/jwt/JwtGenerateAndParser.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/PAT1053Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1009Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1016Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1033Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1034Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/PatDemo1045.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/pat/yiji/Pat1068Demo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/path/Directories.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/proxy/dynamicProxy/cglib/DemoMethodInterceptor.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/proxy/staticproxy/ExerciseService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reen/ReentrantLockDemo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/refer/AddingClone.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/refer/CheckCloneable.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/refer/Immutable2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/refer/MutableInteger.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection/InnerImplementation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/Creator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/Hamster.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/InterfaceViolation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/OptioanlFilterPersons.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/PetCounter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/PetCounter3.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/RegisteredFactories.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/SweetShop.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/TaggInterface.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/ToyTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/runnable_/FunctionalAnnotation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/runnable_/RunnableMethodReference.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/stream_/Fibonacci.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/stream_/MetalWorks.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/stream_/Ranges.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/unsafe/TestAtomicStampedRefer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/validating/DynamicStringInverterTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/vola/VolatileDemo.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pvZDBLNuWGd14anCLqTVYhzL2B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdaptationDemo.executor": "Run",
+    "Application.AddingClone.executor": "Run",
+    "Application.Alias1.executor": "Run",
+    "Application.ArrowInSwitch.executor": "Run",
+    "Application.AssociativeArray.executor": "Run",
+    "Application.AtomicIntegerTest.executor": "Run",
+    "Application.AtomicSerialNumbers.executor": "Run",
+    "Application.AttemptLocking.executor": "Run",
+    "Application.BasicFileOutput.executor": "Run",
+    "Application.BeeAndFlowers.executor": "Run",
+    "Application.BufferedInputFile.executor": "Run",
+    "Application.CachedThreadPool3.executor": "Run",
+    "Application.CanonicalMapping.executor": "Run",
+    "Application.CapUncaughtException.executor": "Run",
+    "Application.CaseNull.executor": "Run",
+    "Application.CatchCompletableExceptions.executor": "Run",
+    "Application.ChainOfResponsibility.executor": "Run",
+    "Application.CheckCloneable.executor": "Run",
+    "Application.ClassNameFinder.executor": "Run",
+    "Application.CloneArrayList.executor": "Run",
+    "Application.CollectionMethods.executor": "Run",
+    "Application.CommandPattern.executor": "Run",
+    "Application.CompletableApplyAsync.executor": "Run",
+    "Application.CompletableExceptions.executor": "Run",
+    "Application.CompletableOperations.executor": "Debug",
+    "Application.CompleteLimitStateMachine.executor": "Run",
+    "Application.CountMap.executor": "Run",
+    "Application.CountingIntegerList.executor": "Run",
+    "Application.DoubleDispatch.executor": "Run",
+    "Application.DualCompletableOperations.executor": "Run",
+    "Application.DynamicFactory.executor": "Run",
+    "Application.ExceptionThread.executor": "Run",
+    "Application.FactoryMethodTest.executor": "Run",
+    "Application.FailFast.executor": "Run",
+    "Application.FileLocking.executor": "Run",
+    "Application.FillMapTest.executor": "Run",
+    "Application.FillingLists.executor": "Run",
+    "Application.FloorCleaner.executor": "Run",
+    "Application.FlowDemo.executor": "Run",
+    "Application.FrostedCake.executor": "Run",
+    "Application.FunctionMap.executor": "Run",
+    "Application.GameEnvironment.executor": "Run",
+    "Application.GetChannel.executor": "Run",
+    "Application.GetData.executor": "Run",
+    "Application.HTMLColorsTest.executor": "Run",
+    "Application.Immutable1.executor": "Run",
+    "Application.Immutable2.executor": "Run",
+    "Application.IntBufferDemo.executor": "Run",
+    "Application.LambdasAndMethodReferences.executor": "Run",
+    "Application.LargeMappedFiles.executor": "Run",
+    "Application.LinkedHashMapDemo.executor": "Run",
+    "Application.LocalCopy.executor": "Run",
+    "Application.LockingMappedFiles.executor": "Run",
+    "Application.Macro.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MemoryInput.executor": "Run",
+    "Application.MutableInteger.executor": "Run",
+    "Application.MyString.executor": "Run",
+    "Application.NavMap.executor": "Run",
+    "Application.NormalLiskov.executor": "Run",
+    "Application.ParallelPrime.executor": "Run",
+    "Application.ParseTrash.executor": "Run",
+    "Application.PassReferences.executor": "Run",
+    "Application.Pat1057StackDemo.executor": "Run",
+    "Application.ProxyDemo.executor": "Run",
+    "Application.QuittingTasks.executor": "Run",
+    "Application.RandomShapes.executor": "Run",
+    "Application.RecycleA.executor": "Run",
+    "Application.RecycleC.executor": "Run",
+    "Application.RoShamBo6.executor": "Run",
+    "Application.SerialNumberTest.executor": "Run",
+    "Application.SetOrder.executor": "Run",
+    "Application.ShapeFactory.executor": "Run",
+    "Application.SimpleDeques.executor": "Run",
+    "Application.SingleThreadExecutor.executor": "Run",
+    "Application.SingletonPattern.executor": "Run",
+    "Application.SmartCasting.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SortedMapDemo.executor": "Run",
+    "Application.SortedSetDemo.executor": "Run",
+    "Application.StateDemo.executor": "Run",
+    "Application.StateMachineDemo.executor": "Run",
+    "Application.StoringAndRecoveringData.executor": "Run",
+    "Application.StreamExceptions.executor": "Run",
+    "Application.StreamFillMaps.executor": "Run",
+    "Application.Summing2.executor": "Run",
+    "Application.Summing3.executor": "Run",
+    "Application.SuppliersCollectionTest.executor": "Run",
+    "Application.SwitchExpression.executor": "Run",
+    "Application.SyncOnObject.executor": "Run",
+    "Application.Synchronization.executor": "Run",
+    "Application.SynchronizedComparsion.executor": "Run",
+    "Application.TemplateMethod.executor": "Run",
+    "Application.TestSingle.executor": "Run",
+    "Application.ToDoList.executor": "Run",
+    "Application.TrashVisitor.executor": "Run",
+    "Application.TypeMapTrash.executor": "Run",
+    "Application.UnsupporedOperaionsInList.executor": "Run",
+    "Application.UseCaseTracker.executor": "Run",
+    "Application.UsingBuffers.executor": "Run",
+    "Application.UsingRandomAccessFile.executor": "Run",
+    "Application.Utilities.executor": "Run",
+    "Application.WorkStealingPool.executor": "Run",
+    "JUnit.CachedThreadPool3.simplifyUsingParallel.executor": "Run",
+    "JUnit.CompleteLimitStateMachine.removeIntervalVar.executor": "Run",
+    "JUnit.SerialNumberChecker.testBasic.executor": "Run",
+    "JUnit.StackLStringTst.executor": "Debug",
+    "JUnit.StackLStringTst.tPush.executor": "Run",
+    "JUnit.TestSingle.testDoubleSingle.executor": "Run",
+    "JUnit.TypeMapTrash.groupBy.executor": "Run",
+    "JUnit.Utilities.testSearch.executor": "Run",
+    "Maven.onjava-exp [clean].executor": "Run",
+    "Maven.onjava-exp [compile].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/study/onJava/onjava-exp/src/main/java/com/jools/collections_",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.16139954",
+    "project.structure.side.proportion": "0.20892018",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\onJava\onjava-exp\src\main\java\com\jools\collections_" />
+      <recent name="D:\study\onJava\onjava-exp\src\main\java\com\jools\proxy\dynamicProxy\cglib" />
+      <recent name="D:\study\onJava\onjava-exp\src\main\java\com\jools\proxy\dynamicProxy\jdk" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jools.designpattern.observer.jdk" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TypeMapTrash.groupBy">
+    <configuration name="DoubleDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jools.designpattern.trash.DoubleDispatch" />
+      <module name="onjava-exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.designpattern.trash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecycleC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jools.designpattern.trash.RecycleC" />
+      <module name="onjava-exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.designpattern.trash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrashVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jools.designpattern.trash.TrashVisitor" />
+      <module name="onjava-exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.designpattern.trash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeMapTrash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jools.designpattern.trash.TypeMapTrash" />
+      <module name="onjava-exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.designpattern.trash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jools.proxy.dynamicProxy.cglib.Client" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jools.proxy.dynamicProxy.cglib.Client" />
+      <module name="onjava-exp" />
+      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.reflect=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.proxy.dynamicProxy.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeMapTrash.groupBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onjava-exp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jools.designpattern.trash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jools.designpattern.trash" />
+      <option name="MAIN_CLASS_NAME" value="com.jools.designpattern.trash.TypeMapTrash" />
+      <option name="METHOD_NAME" value="groupBy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.jools.proxy.dynamicProxy.cglib.Client" />
+      <item itemvalue="Application.DoubleDispatch" />
+      <item itemvalue="Application.RecycleC" />
+      <item itemvalue="Application.TrashVisitor" />
+      <item itemvalue="Application.TypeMapTrash" />
+      <item itemvalue="JUnit.TypeMapTrash.groupBy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TypeMapTrash.groupBy" />
+        <item itemvalue="Application.DoubleDispatch" />
+        <item itemvalue="Application.TypeMapTrash" />
+        <item itemvalue="Application.TrashVisitor" />
+        <item itemvalue="Application.RecycleC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +639,189 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733648389143</updated>
-      <workItem from="1733648390197" duration="1000" />
+      <workItem from="1733648390197" duration="6112000" />
+      <workItem from="1733732798541" duration="8216000" />
+      <workItem from="1736223419366" duration="16848000" />
+      <workItem from="1736949552015" duration="1574000" />
+      <workItem from="1737114358747" duration="2953000" />
+      <workItem from="1737185675166" duration="43235000" />
+      <workItem from="1737472357392" duration="813000" />
+      <workItem from="1737555490743" duration="44138000" />
+      <workItem from="1738159437124" duration="7265000" />
+      <workItem from="1738205831023" duration="4000" />
+      <workItem from="1738243423749" duration="5150000" />
+      <workItem from="1738346495311" duration="30000" />
+      <workItem from="1738346537307" duration="20000" />
+      <workItem from="1738550612843" duration="26509000" />
+      <workItem from="1738893997448" duration="28080000" />
+      <workItem from="1739085232812" duration="60376000" />
+      <workItem from="1739753947974" duration="8574000" />
+      <workItem from="1739973226397" duration="2931000" />
+      <workItem from="1740230024529" duration="5824000" />
+      <workItem from="1741410305796" duration="12000" />
+      <workItem from="1741438181983" duration="7000" />
+      <workItem from="1741504403272" duration="231000" />
+      <workItem from="1741504644790" duration="1635000" />
+      <workItem from="1741856490267" duration="30427000" />
+      <workItem from="1742134853560" duration="2370000" />
+      <workItem from="1742274826005" duration="28557000" />
+      <workItem from="1742542256740" duration="2891000" />
+      <workItem from="1742567031018" duration="16876000" />
+      <workItem from="1742975454983" duration="102898000" />
+      <workItem from="1743940983793" duration="2249000" />
+      <workItem from="1744012287359" duration="22498000" />
+      <workItem from="1744241916514" duration="124000" />
+      <workItem from="1744341835360" duration="30239000" />
+      <workItem from="1744519093427" duration="64461000" />
+      <workItem from="1745223736615" duration="60931000" />
+      <workItem from="1745910094747" duration="10994000" />
+      <workItem from="1745986857647" duration="467000" />
+      <workItem from="1745987346789" duration="889000" />
+      <workItem from="1745988718617" duration="3260000" />
+      <workItem from="1746013483465" duration="37529000" />
+      <workItem from="1746439188405" duration="3377000" />
+      <workItem from="1746494054369" duration="4289000" />
+      <workItem from="1750062529465" duration="47397000" />
+      <workItem from="1750403888439" duration="75171000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/IncrementalNumberGenerator.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/alg/arr/LeetCode2506Demo.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1009Demo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1016Demo.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1016Demo.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1016Demo.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/yiji/Pat1068Demo.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/stream_/MetalWorks.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/Pat1026TableClubDemo.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/reflection_/RegisteredFactories.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/generic_/FactoryConstraint.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/PatDemo1045.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/PatDemo1045.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/PatDemo1045.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/pat/PatDemo1045.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/annotation_/StackLStringTst.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/annotation_/StackLStringTst.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/CachedThreadPool3.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jools/concurrent/CatchCompletableExceptions.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

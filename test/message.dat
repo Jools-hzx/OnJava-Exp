@@ -1,0 +1,77 @@
+PACKAGE COM.JOOLS.PATH;
+
+IMPORT JAVA.IO.IOEXCEPTION;
+IMPORT JAVA.NIO.FILE.FILESYSTEMS;
+IMPORT JAVA.NIO.FILE.FILES;
+IMPORT JAVA.NIO.FILE.PATH;
+IMPORT JAVA.NIO.FILE.PATHS;
+IMPORT JAVA.UTIL.ARRAYS;
+IMPORT JAVA.UTIL.COLLECTIONS;
+IMPORT JAVA.UTIL.LIST;
+
+/**
+ * @AUTHOR JOOLS HE
+ * @VERSION 1.0
+ * @DATE 2025/4/7 18:46
+ * @DESCRIPTION: TODO
+ */
+PUBLIC CLASS DIRECTORIES {
+
+    STATIC PATH TEST = PATHS.GET("TEST");
+
+    // 系统的分隔符
+    STATIC STRING SEP = FILESYSTEMS.GETDEFAULT().GETSEPARATOR();
+    STATIC LIST<STRING> PARTS = ARRAYS.ASLIST("FOO", "BAR", "BAZ", "BAG");
+
+    STATIC PATH MAKEVARIANT() {
+        COLLECTIONS.ROTATE(PARTS, 1);
+        RETURN PATHS.GET("TEST", STRING.JOIN(SEP, PARTS));
+    }
+
+    // REFRESHTESTDIR 检查 TEST 是不是已经失败了
+    PUBLIC STATIC VOID REFRESHTESTDIR() THROWS EXCEPTION {
+        IF (FILES.EXISTS(TEST)) {   // 存在则删除
+            RMDIR.RMDIR(TEST);
+        }
+        IF (!FILES.EXISTS(TEST)) {  // 否则创建
+            FILES.CREATEDIRECTORY(TEST);
+        }
+    }
+
+    PUBLIC STATIC VOID MAIN(STRING[] ARGS) THROWS EXCEPTION {
+        REFRESHTESTDIR();
+        // 创建一个空文件并将文件名添加到 TEST 这个 PATH 的末尾
+        FILES.CREATEDIRECTORIES(TEST.RESOLVE("HELLO.TXT"));
+        PATH PATH = MAKEVARIANT();
+        TRY {
+            // 注意: 如果对于一个已经存在的目录调用了 CREATEDIRECTORY()，则会抛出异常
+            FILES.CREATEDIRECTORY(PATH);
+        } CATCH (IOEXCEPTION E) {
+            SYSTEM.OUT.PRINTLN("NOPE, THAT DOESN'T WORK!!!");
+        }
+        POPULATETESTDIR();
+        // 在 TEST 目录下面创建一个临时目录；PREFIX 表示只有一个名字前缀选项
+        PATH TEMPDIR = FILES.CREATETEMPDIRECTORY(TEST, "DIR_");
+        // 创建一个临时文件到该临时目录下； 指定 前缀为 PRE  后缀为 .NON
+        FILES.CREATETEMPFILE(TEMPDIR, "PRE", ".NON");
+        FILES.NEWDIRECTORYSTREAM(TEST).FOREACH(SYSTEM.OUT::PRINTLN);
+        SYSTEM.OUT.PRINTLN("-------------------------");
+        FILES.WALK(TEST).FOREACH(SYSTEM.OUT::PRINTLN);
+    }
+
+    // 创建完整的目录路径，然后将这个文件的副本放置到最后一层目录内
+    PUBLIC STATIC VOID POPULATETESTDIR() THROWS EXCEPTION {
+        // 对每一个变种 VARIANT, 使用 CREATEDIRECTORES() 创建了完整的目录路径
+        FOR (INT I = 0; I < PARTS.SIZE(); I++) {
+            PATH V = MAKEVARIANT();
+            IF (!FILES.EXISTS(V)) {
+                // 创建完整的目录路径
+                FILES.CREATEDIRECTORIES(V);
+                // 将该文本的副本放置到了最后一层目录中，但是更换了文件名称
+                FILES.COPY(PATHS.GET("D:\\STUDY\\ONJAVA\\ONJAVA-EXP\\SRC\\MAIN\\JAVA\\COM\\JOOLS\\PATH\\DIRECTORIES.JAVA"), V.RESOLVE("FILE.TXT"));
+                // 创建临时文件，没有指定后缀则默认是 .TMP
+                FILES.CREATETEMPFILE(V, NULL, NULL);
+            }
+        }
+    }
+}
