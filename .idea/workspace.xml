@@ -5,337 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63cd24c4-7af8-4098-ad39-30a6628acfb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Greeting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/AdapterClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/PrintBanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/PropertiesFileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/PropertiesFileIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapter/target.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/CountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/DisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/RandomDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/StringDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/TextDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/TriDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/TriLineDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/bridge/TriStrDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/HTMLBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/str/AbstractStringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/str/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/builder/str/StringBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/ConcreteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/GigaMainBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/MainBoardApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/computer/OpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/ChopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/CookApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/CoolCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/DuckCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/HotCook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/MenuCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/PorkCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command/cook/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/FileTreatmentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/root/usr/hanako/memo.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/root/usr/tomura/game.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/root/usr/tomura/iunk.mail" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/root/usr/yuki/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/composite/root/usr/yuki/diary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/ConcreteComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/GroupPrizeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/MonthPrizeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/SumPrizeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorate/TempDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/Border.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/FullBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/HtmlWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/PageMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/FactoryMethodClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Tray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/idcard/IDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/idcard/IDCardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/listfactory/ListFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/listfactory/ListLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/listfactory/ListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/listfactory/ListTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/tablefactory/TableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/tablefactory/TableLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/tablefactory/TablePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/tablefactory/TableTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/AuthorizationFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/Flyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/SecurityMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/TestDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/template/ConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/template/Flyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/template/FlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/template/UnsharedConcreteFlyweight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/CommandListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/CommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/PrimitiveCommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/ProgramNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/RepeatCommandNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/tree/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/tree/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/tree/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/tree/OrExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/interpreter/tree/TerminalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/BookShelfIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/CDDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/Colleague.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/ConcreteColleagueA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/ConcreteColleagueB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/ConcreteMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/SoundCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/mediator/VideoCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/memento/Gamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/newspaper/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/newspaper/NewsPaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/newspaper/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/newspaper/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/newspaper/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/MessageBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/PrototypeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/UnderlinePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/framework/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/PrinterProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/LimitSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/NoSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/OddSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/SpecialSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/respchain/Trouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/ConcurrentLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/DoubleLockLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/HungerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/InnerStaticClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/BlackVoteState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/NormalVoteState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/RepeatVoteState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/SpiteVoteState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/VoteManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/VoteState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/AbstractDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/CharDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/StringDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/TemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/ElementArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/FileFindVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/FileTreatmentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/ListVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/SizeVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/serializable/Blip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/CommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/DoubleStackQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/FindNearestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/LinkedListHasCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinDiffAmongArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/PowerTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/untitled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/ContainerProductA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/ContainerProductB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/FactoryA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/FactoryB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/MouldProductA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/concrete/MouldProductB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/factory/AbstractProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/factory/ContainerProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/factory/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/abstractFactory/exp01/factory/MouldProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/adapt_/AdaptationDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/chain_/ChainOfResponsibility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/chain_/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/Macro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/StrategyPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/command_/StrategyPattern2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/Beverage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/CondimentDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/DarkRoast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/HouseBlend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/Milk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/coffee/Mocha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/Border.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/FullBorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/MultiStringDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/SideBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/SideBorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/StringDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/StringDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/UpDownBorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade_/FacadeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/BadShapeCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/FactoryMethodTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/GameEnvironment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/handleChain/HandlerDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/AbstractAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/DigitObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/DigitObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/DotObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/GraphObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/GraphObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/IncrementalNumberGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/InterfaceDefaultDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/NumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/RandomNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer/RandomNumberGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/FlowDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/MyPublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/observer_/MySubscriber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy_/ProxyDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/DoubleLocksSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/LazySingletonObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/MyString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/Single.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/SingletonPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/SingletonThreadUnsafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/StaticInnerClassSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/TestSingle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/TestSingletonObjClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/Triple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/singleton/TripleClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/FloorCleaner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/state/StateDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/statemachine/StateMachineDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/ChristmasDiscount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/CnNewYearDiscountStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/DiscountStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/MidAutumnDiscount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/discount/SaleMan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/AoaoBarkBehavior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/BarkBehavior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/dog/WawaBarkBehavior.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/DbLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/FileLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/LogContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/LogStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/failback/LogStrategyTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Hand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/ProbStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/RandomStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/Strategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/hand/WinningStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/CardPayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/DollarCash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/PayContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/PayContextExtra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/PaymentStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/strategy/payment/RMBCash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/template/TemplateMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Aluminum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Bins.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Cardboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/ClassToListOfTrashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/DoubleDispatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/DynaFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Fillable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/FillableList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Glass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Paper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/ParseTrash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Plastic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Price.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/RecycleB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/RecycleC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/SimpleFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Trash.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Trash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TrashVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypeMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypeMapTrash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypedBin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/TypedBinMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/trash/Visitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/visitor_/BeeAndFlowers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/generic_/ThrowGenericException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/generic_/ThrowGenericException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/aqs/AqsSynchronierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/highconcurrency/aqs/AqsSynchronierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/validating/DynamicStringInverterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/validating/DynamicStringInverterTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -684,6 +359,7 @@
     "JUnit.Utilities.testSearch.executor": "Run",
     "Maven.onjava-exp [clean].executor": "Run",
     "Maven.onjava-exp [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -691,16 +367,17 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/study/onJava/onjava-exp/src/main/java/com/jools/collections_",
+    "last_opened_file_path": "D:/study/onJava/onjava-exp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "onboarding.tips.debug.path": "D:/study/onJava/onjava-exp/src/untitled/src/main/java/com/jools/Main.java",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.16139954",
     "project.structure.side.proportion": "0.20892018",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -883,7 +560,11 @@
       <workItem from="1752981161528" duration="5754000" />
       <workItem from="1753447147014" duration="64893000" />
       <workItem from="1753723697583" duration="35179000" />
-      <workItem from="1754728023126" duration="11992000" />
+      <workItem from="1754728023126" duration="13335000" />
+      <workItem from="1754747018768" duration="126000" />
+      <workItem from="1754747149524" duration="30000" />
+      <workItem from="1754747215699" duration="14000" />
+      <workItem from="1754747256716" duration="306000" />
     </task>
     <servers />
   </component>
@@ -1022,6 +703,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/TestDB.java</url>
           <line>20</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/untitled/src/main/java/com/jools/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

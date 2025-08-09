@@ -4,8 +4,12 @@
     <groupId>com.jools</groupId>
     <artifactId>onjava-exp</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>Archetype - onjava-exp</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>src/untitled</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
