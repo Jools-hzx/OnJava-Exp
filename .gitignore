@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+# 忽略所有 .dat 文件
+*.dat
 
 ### Eclipse ###
 .apt_generated
