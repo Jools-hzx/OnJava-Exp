@@ -13,6 +13,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
         <!-- JMH 核心依赖，用于运行基准测试 -->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>

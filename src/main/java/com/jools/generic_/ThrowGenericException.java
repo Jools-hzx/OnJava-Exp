@@ -1,6 +1,5 @@
 package com.jools.generic_;
 
-import com.jools.designpattern.abstractFactory.Main;
 
 import java.util.ArrayList;
 import java.util.List;

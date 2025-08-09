@@ -2,22 +2,23 @@ package com.jools.designpattern.observer;
 
 /**
  * @author Jools He
- * @version 1.0
- * @date 2025/1/18 17:26
+ * @date 2025/7/29 11:32
  * @description: TODO
  */
-public class GraphObserver implements Observer {
+public class GraphObserver implements Observer{
+
     @Override
-    public void update(NumberGenerator numberGenerator) {
-        System.out.println(this.getClass().getSimpleName() + ":" + "\n ==== ");
-        int cnt = numberGenerator.getNumber();
-        for (int i = 0; i < cnt; i++) {
-            System.out.print("***");
+    public void update(NumberGenerator generator) {
+        System.out.println("Graph Observer");
+        int count = generator.getNumber();
+        for (int i = 0; i < count; i++) {
+            System.out.print("*");
         }
-        System.out.println("\n=======");
+        System.out.println();
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 }

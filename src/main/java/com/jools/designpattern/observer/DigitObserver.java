@@ -2,18 +2,18 @@ package com.jools.designpattern.observer;
 
 /**
  * @author Jools He
- * @version 1.0
- * @date 2025/1/18 17:25
+ * @date 2025/7/29 11:31
  * @description: TODO
  */
-public class DigitObserver implements Observer {
-    @Override
-    public void update(NumberGenerator numberGenerator) {
-        System.out.println(this.getClass().getSimpleName() + ":" + numberGenerator.getNumber());
+public class DigitObserver implements Observer{
 
+    @Override
+    public void update(NumberGenerator generator) {
+        System.out.println("DigitObserver:" + generator.getNumber());
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 }

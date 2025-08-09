@@ -4,13 +4,13 @@ import java.util.Random;
 
 /**
  * @author Jools He
- * @version 1.0
- * @date 2025/1/18 17:22
+ * @date 2025/7/29 11:29
  * @description: TODO
  */
 public class RandomNumberGenerator extends NumberGenerator {
 
     private Random random = new Random();
+
     private int number;
 
     @Override
@@ -20,9 +20,9 @@ public class RandomNumberGenerator extends NumberGenerator {
 
     @Override
     public void execute() {
-        for (int i = 0; i < 5; i++) {
-            number = random.nextInt(20);
-            super.notifyAllObservers();     // 通知所有监听者
+        for (int i = 0; i < 20; i++) {
+            number = random.nextInt(50);
+            notifyObservers();
         }
     }
 }
