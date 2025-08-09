@@ -76,10 +76,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/Display.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/FullBorder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/SideBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/StringDisplay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/HtmlWriter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade/PageMaker.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/FactoryMethodClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Factory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/factory/Item.java" afterDir="false" />
@@ -153,6 +153,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/UnderlinePen.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/framework/Manager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/prototype/framework/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Printable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/Printer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/proxy/PrinterProxy.java" afterDir="false" />
@@ -198,6 +199,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinDiffAmongArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinStack.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/PowerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -233,8 +235,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/FullBorder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/MultiStringDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/SideBorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/StringDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/SideBorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/SideBorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/StringDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/StringDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/decorator/printhelloworld/UpDownBorder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/facade_/FacadeDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/designpattern/factory/BadShapeCreation.java" beforeDir="false" />
@@ -582,7 +584,7 @@
     "Application.FileLocking.executor": "Run",
     "Application.FillMapTest.executor": "Run",
     "Application.FillingLists.executor": "Run",
-    "Application.FindNearestNumber.executor": "Debug",
+    "Application.FindNearestNumber.executor": "Run",
     "Application.FloorCleaner.executor": "Run",
     "Application.FlowDemo.executor": "Run",
     "Application.FrostedCake.executor": "Run",
@@ -881,7 +883,7 @@
       <workItem from="1752981161528" duration="5754000" />
       <workItem from="1753447147014" duration="64893000" />
       <workItem from="1753723697583" duration="35179000" />
-      <workItem from="1754728023126" duration="11503000" />
+      <workItem from="1754728023126" duration="11992000" />
     </task>
     <servers />
   </component>
@@ -1020,11 +1022,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/jools/designpattern/flyweight/security/TestDB.java</url>
           <line>20</line>
           <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/FindNearestNumber.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

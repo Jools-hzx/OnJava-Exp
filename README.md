@@ -1,6 +1,6 @@
 # 📘 《On Java Learning》 Project
 
-This repository is a collection of example code and test cases written while reading the book **"On Java"**, aimed at reinforcing concepts and providing a practical reference for future review or for others who are also learning from the book.
+This repository is a collection of example code and test cases written while reading the book **"On Java (ver.2022)" + "Graphical Design Patterns"**, aimed at reinforcing concepts and providing a practical reference for future review or for others who are also learning from the book.
 
 ## ✨ Features
 
