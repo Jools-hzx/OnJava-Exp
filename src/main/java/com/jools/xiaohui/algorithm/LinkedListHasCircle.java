@@ -1,6 +1,5 @@
-package com.jools.xiaohui.algorithm;
+package main.java.com.jools.xiaohui.algorithm;
 
-import cn.hutool.http.Header;
 import lombok.Data;
 
 /**

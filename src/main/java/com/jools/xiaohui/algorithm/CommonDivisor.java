@@ -1,4 +1,4 @@
-package com.jools.xiaohui.algorithm;
+package main.java.com.jools.xiaohui.algorithm;
 
 /**
  * @author Jools He

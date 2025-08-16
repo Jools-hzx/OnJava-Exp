@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63cd24c4-7af8-4098-ad39-30a6628acfb8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/FindLostNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MindingGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/RemoveKToGetSmallestDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/SumOfTwoLargeNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/CommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/CommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/DoubleStackQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/DoubleStackQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/LinkedListHasCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/LinkedListHasCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/PowerTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/PowerTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +205,9 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/vola/VolatileDemo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/FindNearestNumber.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MinDiffAmongArray.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/MindingGold.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/RemoveKToGetSmallestDigit.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jools/xiaohui/algorithm/SumOfTwoLargeNum.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -254,6 +267,7 @@
     "Application.FileLocking.executor": "Run",
     "Application.FillMapTest.executor": "Run",
     "Application.FillingLists.executor": "Run",
+    "Application.FindLostNums.executor": "Debug",
     "Application.FindNearestNumber.executor": "Run",
     "Application.FloorCleaner.executor": "Run",
     "Application.FlowDemo.executor": "Run",
@@ -278,6 +292,7 @@
     "Application.MemoryInput.executor": "Run",
     "Application.MinDiffAmongArray.executor": "Run",
     "Application.MinStack.executor": "Run",
+    "Application.MindingGold.executor": "Run",
     "Application.MutableInteger.executor": "Run",
     "Application.MyString.executor": "Run",
     "Application.NavMap.executor": "Run",
@@ -294,6 +309,7 @@
     "Application.RandomShapes.executor": "Run",
     "Application.RecycleA.executor": "Run",
     "Application.RecycleC.executor": "Run",
+    "Application.RemoveKToGetSmallestDigit.executor": "Run",
     "Application.RoShamBo6.executor": "Run",
     "Application.SerialNumberTest.executor": "Run",
     "Application.SetOrder.executor": "Run",
@@ -310,6 +326,7 @@
     "Application.StoringAndRecoveringData.executor": "Run",
     "Application.StreamExceptions.executor": "Run",
     "Application.StreamFillMaps.executor": "Run",
+    "Application.SumOfTwoLargeNum.executor": "Run",
     "Application.Summing2.executor": "Run",
     "Application.Summing3.executor": "Run",
     "Application.SuppliersCollectionTest.executor": "Run",
@@ -390,13 +407,13 @@
       <recent name="com.jools.designpattern.observer.jdk" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindNearestNumber">
-    <configuration name="CommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jools.xiaohui.algorithm.CommonDivisor" />
+  <component name="RunManager" selected="Application.FindLostNums">
+    <configuration name="FindLostNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.jools.xiaohui.algorithm.FindLostNums" />
       <module name="onjava-exp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jools.xiaohui.algorithm.*" />
+          <option name="PATTERN" value="main.java.com.jools.xiaohui.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDiffAmongArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jools.xiaohui.algorithm.MinDiffAmongArray" />
+    <configuration name="MindingGold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.jools.xiaohui.algorithm.MindingGold" />
       <module name="onjava-exp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jools.xiaohui.algorithm.*" />
+          <option name="PATTERN" value="main.java.com.jools.xiaohui.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jools.xiaohui.algorithm.MinStack" />
+    <configuration name="RemoveKToGetSmallestDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.jools.xiaohui.algorithm.RemoveKToGetSmallestDigit" />
       <module name="onjava-exp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jools.xiaohui.algorithm.*" />
+          <option name="PATTERN" value="main.java.com.jools.xiaohui.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,12 +460,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jools.xiaohui.algorithm.PowerTwo" />
+    <configuration name="SumOfTwoLargeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.jools.xiaohui.algorithm.SumOfTwoLargeNum" />
       <module name="onjava-exp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jools.xiaohui.algorithm.*" />
+          <option name="PATTERN" value="main.java.com.jools.xiaohui.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,19 +489,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.com.jools.proxy.dynamicProxy.cglib.Client" />
-      <item itemvalue="Application.CommonDivisor" />
+      <item itemvalue="Application.FindLostNums" />
+      <item itemvalue="Application.MindingGold" />
+      <item itemvalue="Application.RemoveKToGetSmallestDigit" />
+      <item itemvalue="Application.SumOfTwoLargeNum" />
       <item itemvalue="Application.FindNearestNumber" />
-      <item itemvalue="Application.MinDiffAmongArray" />
-      <item itemvalue="Application.MinStack" />
-      <item itemvalue="Application.PowerTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLostNums" />
+        <item itemvalue="Application.MindingGold" />
+        <item itemvalue="Application.SumOfTwoLargeNum" />
+        <item itemvalue="Application.RemoveKToGetSmallestDigit" />
         <item itemvalue="Application.FindNearestNumber" />
-        <item itemvalue="Application.MinDiffAmongArray" />
-        <item itemvalue="Application.PowerTwo" />
-        <item itemvalue="Application.CommonDivisor" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +576,7 @@
       <workItem from="1754747018768" duration="126000" />
       <workItem from="1754747149524" duration="30000" />
       <workItem from="1754747215699" duration="14000" />
-      <workItem from="1754747256716" duration="774000" />
+      <workItem from="1754747256716" duration="12183000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package com.jools.xiaohui.algorithm;
+package main.java.com.jools.xiaohui.algorithm;
 
 import java.util.Objects;
 import java.util.Stack;
